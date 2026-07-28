@@ -10,7 +10,6 @@ export default function CarsPage() {
           Available Cars
         </h1>
 
-
         {/* <CarsSearchBar /> */}
       </div>
 
