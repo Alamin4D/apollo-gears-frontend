@@ -5,8 +5,7 @@ type Props = {
   car: CarDetailsType;
 };
 
-const CarDetails = ({ car }: Props) => {
-    
+const CarDetails = ({ car }: Props) => { 
   return (
     <section className="container mx-auto py-10">
       <div className="overflow-hidden rounded-xl bg-white shadow-lg">
