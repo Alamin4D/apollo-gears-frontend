@@ -9,6 +9,7 @@ export default function CarsPage() {
         <h1 className="text-2xl lg:text-4xl font-bold">
           Available Cars
         </h1>
+        
 
         {/* <CarsSearchBar /> */}
       </div>
