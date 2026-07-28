@@ -1,6 +1,6 @@
 
 import CarList from "../_components/cars/CarList";
-import { CarsSearchBar } from "../_components/cars/CarsSearchBar";
+// import { CarsSearchBar } from "../_components/cars/CarsSearchBar";
 
 export default function CarsPage() {
   return (
@@ -10,7 +10,7 @@ export default function CarsPage() {
           Available Cars
         </h1>
 
-        <CarsSearchBar />
+        {/* <CarsSearchBar /> */}
       </div>
 
 

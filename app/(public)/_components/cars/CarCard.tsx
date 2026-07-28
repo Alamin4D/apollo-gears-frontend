@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Car } from "@/lib/type";
+import Link from "next/link";
 
 interface Props {
     car: Car;
@@ -37,9 +38,11 @@ export default function CarCard({ car }: Props) {
                     <span>{car.color}</span>
                 </div>
 
-                <Button className="w-full">
-                    View Details
-                </Button>
+                <Link href={`/cars/${car.id}`}>
+                    <Button className="w-full">
+                        View Details
+                    </Button>
+                </Link>
             </CardContent>
         </Card>
     );
